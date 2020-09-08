@@ -6,8 +6,7 @@ Python3 + OpenCV + SQLite3
  - /data/trainer
 ### Pyvenv:
  - pip3 install -r requirements.txt
+ - python3 main_run.py
 ### Docker:
  - docker build -t docker_hub_name/face_recognition .
  - docker run --interactive --device=/dev/video0:/dev/video0 --tty --env DISPLAY=$DISPLAY --volume /tmp/.X11-unix/:/tmp/.X11-unix/ docker_hub_name/face_recognition
-
-
