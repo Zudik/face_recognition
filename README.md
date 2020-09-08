@@ -1,4 +1,4 @@
-# Face recognition in real-time.
+# Face recognition in real-time
 Python3 + OpenCV + SQLite3
 ## Getting ready to work
 ### Create folders:
